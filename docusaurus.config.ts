@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   url: 'https://arthalekha.sourcedopen.com',
-  baseUrl: '/',
+  baseUrl: '/arthalekha-docs/',
 
   organizationName: 'sourcedopen',
   projectName: 'arthalekha',
