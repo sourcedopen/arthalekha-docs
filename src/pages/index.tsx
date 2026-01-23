@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -21,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
           </Link>
         </div>
       </div>
@@ -29,12 +28,72 @@ function HomepageHeader() {
   );
 }
 
+type FeatureItem = {
+  title: string;
+  description: ReactNode;
+};
+
+const FeatureList: FeatureItem[] = [
+  {
+    title: 'Track Everything',
+    description: (
+      <>
+        Record incomes, expenses, and transfers across multiple accounts.
+        Track by family member and categorize with flexible tags.
+      </>
+    ),
+  },
+  {
+    title: 'Plan Ahead',
+    description: (
+      <>
+        Set up recurring transactions and see projected balances
+        up to 12+ months in the future.
+      </>
+    ),
+  },
+  {
+    title: 'Understand Your Finances',
+    description: (
+      <>
+        Use powerful filtering, search, and export features to
+        analyze spending patterns and make informed decisions.
+      </>
+    ),
+  },
+];
+
+function Feature({title, description}: FeatureItem) {
+  return (
+    <div className={clsx('col col--4')}>
+      <div className="text--center padding-horiz--md">
+        <Heading as="h3">{title}</Heading>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
+
+function HomepageFeatures(): ReactNode {
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Documentation"
+      description="Arthalekha - Family expense management made simple">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
