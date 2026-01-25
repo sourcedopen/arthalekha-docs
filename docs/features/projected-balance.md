@@ -55,6 +55,14 @@ The projected dashboard shows:
 - Multiple months ahead (12+)
 - Aggregate view across accounts
 
+### Family Mode Projections
+
+Switch to **Family Mode** to see combined projections from all family members:
+- View all recurring transactions from the entire household
+- See consolidated projected balances
+- Perfect for understanding household-wide cash flow
+- Access via the mode toggle in the navigation bar
+
 ## Understanding the Projection View
 
 ### Daily Projections

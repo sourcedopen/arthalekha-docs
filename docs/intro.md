@@ -35,7 +35,7 @@ Set up recurring incomes (like salaries), expenses (like subscriptions), and tra
 See projected account balances up to 12+ months in the future, helping you plan for upcoming expenses and financial goals.
 
 ### Family/Group Tracking
-Associate transactions with specific people in your household or group to understand individual spending patterns.
+Associate transactions with specific people in your household or group to understand individual spending patterns. Use **Family Mode** to view consolidated financial data from all family members in a read-only format, perfect for monthly reviews and household financial planning.
 
 ### Flexible Categorization
 Use tags to categorize transactions however makes sense for you - by category, project, or any other criteria.

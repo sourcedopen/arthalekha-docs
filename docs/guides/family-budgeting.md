@@ -4,7 +4,36 @@ sidebar_position: 4
 
 # Family Budgeting
 
-This guide explains how to use Arthalekha for tracking finances across a family or household. Learn how to set up people, track individual spending, and manage shared finances.
+This guide explains how to use Arthalekha for tracking finances across a family or household. Learn how to set up people, track individual spending, and manage shared finances using the **Family Mode** feature.
+
+## Individual vs Family Mode
+
+Arthalekha provides two viewing modes to help manage family finances:
+
+### Individual Mode (Default)
+
+When you log in, you're in Individual Mode by default. In this mode:
+- You only see **your own** accounts, transactions, and recurring items
+- You can create, edit, and delete your data
+- Full access to all features for your personal data
+
+### Family Mode
+
+Switch to Family Mode to see a consolidated view of **all users' finances**. In this mode:
+- View accounts, incomes, expenses, transfers, and recurring transactions from all users
+- **Read-only access** - you cannot create, edit, or delete data
+- Perfect for monthly family finance reviews and understanding overall household finances
+
+### Switching Between Modes
+
+Use the **mode toggle button** in the navigation bar to switch between Individual and Family modes. The toggle:
+- Switches you to the corresponding page in the other mode
+- Preserves your context (e.g., switching from individual expenses to family expenses view)
+- Redirects to home if the current page doesn't exist in the target mode
+
+:::tip
+Use Individual Mode for daily transaction entry and management. Switch to Family Mode for reviews, analysis, and understanding the complete family financial picture.
+:::
 
 ## Setting Up for Family Use
 
@@ -115,6 +144,20 @@ Tags: Family-Contribution
 ```
 
 ## Analyzing Family Finances
+
+### Using Family Mode for Analysis
+
+The best way to analyze family finances is through Family Mode:
+
+1. Click the **mode toggle** in the navigation bar to switch to Family Mode
+2. You'll see consolidated data from all users
+3. Available views in Family Mode:
+   - **Accounts** - All users' accounts
+   - **Incomes** - All incomes from all users
+   - **Expenses** - All expenses from all users
+   - **Transfers** - All transfers between accounts
+   - **Projections** - Combined projected balance dashboard
+   - **Recurring** - All recurring incomes, expenses, and transfers
 
 ### Individual Spending
 
@@ -237,26 +280,31 @@ Tags: Kids-Activities, Art
 
 ### Review Meeting Agenda
 
-Hold a monthly family finance review:
+Hold a monthly family finance review using Family Mode:
 
-1. **Income Summary**
-   - Filter incomes by this month
-   - See total family income
-   - Individual contributions
+1. **Switch to Family Mode**
+   - Click the mode toggle in the navigation bar
+   - All views will now show consolidated data from all users
 
-2. **Expense Summary**
-   - Total family expenses
-   - Expenses by category
-   - Expenses by person
+2. **Income Summary**
+   - Go to Family Incomes view
+   - Filter by this month
+   - See total income from all users and individual contributions
 
-3. **Budget vs Actual**
+3. **Expense Summary**
+   - Go to Family Expenses view
+   - Review total expenses from all users
+   - Expenses by category and by person
+
+4. **Budget vs Actual**
    - Compare to targets
    - Identify overspending areas
 
-4. **Upcoming Month**
-   - Check projected balance
+5. **Upcoming Month**
+   - Go to Family Projections view
+   - Check projected balances for all accounts
    - Plan for large expenses
-   - Adjust if needed
+   - Switch back to Individual Mode to make adjustments
 
 ### Export for Discussion
 
@@ -320,6 +368,14 @@ Tags for clarity:
 
 ## Tips for Family Success
 
+### Use Both Modes Effectively
+
+Leverage Individual and Family modes appropriately:
+- **Individual Mode** for daily entries and personal management
+- **Family Mode** for reviews and consolidated analysis
+- Each family member manages their own data in Individual Mode
+- Use Family Mode together during monthly reviews
+
 ### Agree on Categories
 
 Discuss and agree on tag categories:
@@ -338,7 +394,7 @@ Establish family spending rules:
 
 Keep finances transparent:
 - Share access to Arthalekha
-- Regular review meetings
+- Regular review meetings using Family Mode
 - No financial surprises
 
 ### Respect Privacy
@@ -347,6 +403,7 @@ Balance tracking with privacy:
 - Focus on categories, not every small purchase
 - Trust each other
 - Use tracking to improve, not criticize
+- Remember: Family Mode is read-only, each person controls their own data
 
 ## Reporting for Family
 

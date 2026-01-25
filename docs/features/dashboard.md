@@ -18,6 +18,15 @@ The dashboard shows:
 
 The dashboard is the home page of Arthalekha. You'll see it immediately after logging in, or you can access it from the navigation menu.
 
+### Individual vs Family Dashboard
+
+Arthalekha provides two dashboard views:
+
+- **Individual Dashboard** (default) - Shows your personal financial summary
+- **Family Dashboard** - Shows consolidated data from all family members
+
+Use the **mode toggle** in the navigation bar to switch between views. Family Mode is read-only and perfect for reviewing combined household finances.
+
 ## Dashboard Components
 
 ### Month Selector

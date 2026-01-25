@@ -123,6 +123,22 @@ For transactions that happen regularly (salary, rent, subscriptions), you can se
 5. **Balances update automatically** based on your transactions
 6. **You set up recurring transactions** for regular items
 7. **Projections show future balances** based on recurring transactions
+8. **Switch to Family Mode** to see consolidated data from all family members
+
+## Viewing Modes
+
+Arthalekha supports two viewing modes:
+
+### Individual Mode (Default)
+- View and manage only your personal data
+- Full create, edit, and delete capabilities
+- Use for daily transaction entry
+
+### Family Mode
+- View consolidated data from all family members
+- Read-only access (no editing)
+- Perfect for family finance reviews and analysis
+- Toggle using the mode switch in the navigation bar
 
 ## The Balance Formula
 
