@@ -42,11 +42,12 @@ Use tags to categorize transactions however makes sense for you - by category, p
 
 ## Quick Start
 
-1. **Create your accounts** - Add your bank accounts, wallets, and other financial accounts
-2. **Set initial balances** - Enter the starting balance for each account
-3. **Start recording** - Log your daily incomes and expenses
-4. **Add recurring items** - Set up recurring transactions for regular incomes and bills
-5. **Analyze and plan** - Use the dashboard and projections to understand your finances
+1. **Initialize the application** - Set up your user account during first-time setup
+2. **Create your accounts** - Add your bank accounts, wallets, and other financial accounts
+3. **Set initial balances** - Enter the starting balance for each account
+4. **Start recording** - Log your daily incomes and expenses
+5. **Add recurring items** - Set up recurring transactions for regular incomes and bills
+6. **Analyze and plan** - Use the dashboard and projections to understand your finances
 
 ## Who is Arthalekha for?
 
