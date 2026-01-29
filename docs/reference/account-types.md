@@ -75,6 +75,12 @@ Quick reference for all account types in Arthalekha.
 - Purchases: Record as expense FROM credit card
 - Payments: Record as transfer FROM bank TO credit card
 
+**Additional fields:**
+- Credit Limit - Maximum credit available
+- Rate of Interest - Annual interest rate
+- Bill Generated On - Statement generation day
+- Repayment Due After - Days until payment is due
+
 **Examples:**
 - "HDFC Credit Card - 4521"
 - "Amazon Pay ICICI"

@@ -100,12 +100,25 @@ Pay the bill (transfer from bank): +₹8,000
   → Balance: ₹0 (no debt)
 ```
 
+### Credit Card Details
+
+When creating a credit card account, you can specify additional details:
+
+| Field | Description |
+|-------|-------------|
+| **Credit Limit** | Maximum credit available on the card |
+| **Rate of Interest** | Annual interest rate charged on outstanding balance |
+| **Interest Frequency** | How often interest is calculated |
+| **Bill Generated On** | Day of month when statement is generated |
+| **Repayment Due After** | Number of days after bill generation when payment is due |
+
 ### Example
 ```
 Account: HDFC Credit Card
 Type: Credit Card (CC)
 Identifier: 8765 (last 4 digits)
 Initial Balance: ₹0 (or current debt as negative)
+Credit Limit: ₹1,00,000
 ```
 
 ## Wallet (WL)
