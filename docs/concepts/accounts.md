@@ -137,3 +137,39 @@ For credit cards and loans:
 - A negative balance represents money you owe
 - Payments to a credit card are recorded as transfers from another account
 - This keeps your net worth calculations accurate
+
+## Deleting and Restoring Accounts
+
+Arthalekha uses **soft deletes** for accounts, which means deleted accounts are not permanently removed from the system.
+
+### Soft Delete Behavior
+
+When you delete an account:
+- The account is marked as deleted but remains in the database
+- It no longer appears in regular account lists
+- Existing transactions linked to the account are preserved
+- The account can be restored at any time
+
+### Viewing Deleted Accounts
+
+From the accounts list, use the **Status** filter to view deleted accounts:
+- **Active Only** (default): Shows only active accounts
+- **All (Including Deleted)**: Shows both active and deleted accounts
+- **Deleted Only**: Shows only deleted accounts
+
+Deleted accounts are visually distinguished with:
+- A "Deleted" badge next to the account name
+- A highlighted row background
+- The deletion date instead of the initial date
+
+### Restoring Accounts
+
+To restore a deleted account:
+1. Navigate to the accounts list
+2. Change the Status filter to show deleted accounts
+3. Find the deleted account
+4. Click the **Restore** button
+
+Alternatively, view the deleted account's detail page and click **Restore Account** from the alert banner.
+
+Once restored, the account returns to normal operation with all its historical data intact.

@@ -44,6 +44,9 @@ A frequency meaning every day. Results in 365 occurrences per year. [Learn more 
 ### Debtor
 In a transfer, the account sending money (balance decreases). Think of it as the account being "debited." [Learn more →](/docs/concepts/transfers)
 
+### Deleted Account
+An account that has been soft-deleted. It no longer appears in regular lists but can be viewed using the Status filter and restored if needed. All transaction history is preserved. [Learn more →](/docs/concepts/accounts#deleting-and-restoring-accounts)
+
 ## E
 
 ### Expense
@@ -129,6 +132,9 @@ A template for transfers that happen regularly (monthly savings contributions). 
 ### Remaining Recurrences
 The number of times a recurring transaction will repeat before stopping. If not set, the transaction repeats indefinitely. [Learn more →](/docs/concepts/recurring-transactions)
 
+### Restore
+The action of bringing back a soft-deleted record (like an account) to active status. Restored accounts retain all their historical data and transactions. [Learn more →](/docs/concepts/accounts#deleting-and-restoring-accounts)
+
 ## S
 
 ### Savings (Account Type)
@@ -136,6 +142,9 @@ An account type for bank savings accounts, checking accounts, and current accoun
 
 ### Short Code
 A two-letter abbreviation for account types (CA, SB, CC, WL, IN, LN, OT). Displayed in account labels for quick identification. [Learn more →](/docs/reference/account-types)
+
+### Soft Delete
+When a record (like an account) is marked as deleted but not permanently removed from the database. Soft-deleted accounts can be viewed using filters and restored if needed. [Learn more →](/docs/concepts/accounts#deleting-and-restoring-accounts)
 
 ## T
 

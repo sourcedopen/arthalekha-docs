@@ -229,3 +229,13 @@ If you have many accounts:
 - Start with the most important ones
 - Add others gradually
 - Consider if some can be combined (multiple cash locations as one "Cash" account)
+
+### Accidentally Deleted an Account?
+
+Don't worry! Arthalekha uses soft deletes for accounts:
+1. Go to the Accounts page
+2. Change the **Status** filter to "All (Including Deleted)" or "Deleted Only"
+3. Find your deleted account
+4. Click **Restore** to bring it back
+
+All your transaction history will be preserved.

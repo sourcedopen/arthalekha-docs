@@ -43,6 +43,21 @@ Show transactions for a specific account:
 - View income to your salary account
 - Check transfers involving savings
 
+### Account Status Filter
+
+When viewing the accounts list, you can filter by status:
+
+| Option | Description |
+|--------|-------------|
+| **Active Only** | Shows only active (non-deleted) accounts |
+| **All (Including Deleted)** | Shows both active and deleted accounts |
+| **Deleted Only** | Shows only deleted accounts |
+
+This is useful for:
+- Viewing accounts you've previously deleted
+- Restoring accidentally deleted accounts
+- Reviewing historical account data
+
 ### Person Filter
 
 Show transactions for a specific person:
