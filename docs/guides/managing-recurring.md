@@ -312,6 +312,23 @@ For recurring incomes and expenses, you can leave the account empty:
 - Remaining recurrences still decrement
 - The recurring item stays active for projections planning
 
+### Using No Accounts for Transfers (Skip Transaction)
+
+For recurring transfers, you can leave both the source and destination accounts empty:
+
+**When to use "No accounts":**
+- You're planning a future recurring transfer but haven't decided the accounts yet
+- You want to track a reminder without creating actual transfer entries
+- You're planning internal money movements but not ready to commit
+
+**What happens:**
+- No transfer entry is created
+- The next transaction date still advances
+- Remaining recurrences still decrement
+- The recurring transfer stays active
+
+**Note**: Either both accounts must be set, or both must be empty. You cannot set just one account.
+
 ## Tips for Effective Recurring Management
 
 ### Be Comprehensive

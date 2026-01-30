@@ -45,7 +45,7 @@ Each recurring transaction has:
 |----------|-------------|
 | **Description** | What the transaction is for |
 | **Amount** | The recurring amount |
-| **Account** | Which account is affected (optional for incomes/expenses) |
+| **Account** | Which account is affected (optional for incomes/expenses/transfers) |
 | **Person** | Who this relates to (optional, incomes/expenses only) |
 | **Tags** | Categories for this transaction |
 | **Next Transaction Date** | When the next occurrence is due |
@@ -65,6 +65,16 @@ This is helpful for:
 - Tracking expected payments you haven't assigned an account to yet
 - Reminders for financial events without actual transactions
 - Planning future expenses before deciding which account to use
+
+### Optional Accounts for Transfers (Skip Transaction)
+
+For recurring transfers, both the source (debtor) and destination (creditor) accounts are **optional**. When both accounts are left empty:
+
+- **No transfer is created** when the next date arrives
+- The **next transaction date is still updated** according to the frequency
+- **Remaining recurrences are still decremented** (if set)
+
+**Note**: If one account is provided, the other must also be provided. Either both are set or both are empty.
 
 ## Frequencies
 
