@@ -45,12 +45,26 @@ Each recurring transaction has:
 |----------|-------------|
 | **Description** | What the transaction is for |
 | **Amount** | The recurring amount |
-| **Account** | Which account is affected |
+| **Account** | Which account is affected (optional for incomes/expenses) |
 | **Person** | Who this relates to (optional, incomes/expenses only) |
 | **Tags** | Categories for this transaction |
 | **Next Transaction Date** | When the next occurrence is due |
 | **Frequency** | How often it repeats |
 | **Remaining Recurrences** | How many times left (optional) |
+
+### Optional Account (Skip Transaction)
+
+For recurring incomes and expenses, the account field is **optional**. When no account is selected:
+
+- **No transaction is created** when the next date arrives
+- The **next transaction date is still updated** according to the frequency
+- **Remaining recurrences are still decremented** (if set)
+- Useful for **tracking reminders** without affecting account balances
+
+This is helpful for:
+- Tracking expected payments you haven't assigned an account to yet
+- Reminders for financial events without actual transactions
+- Planning future expenses before deciding which account to use
 
 ## Frequencies
 

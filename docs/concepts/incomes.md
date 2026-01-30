@@ -106,6 +106,15 @@ You can export your filtered income list to CSV format for:
 - Tax preparation
 - Sharing with family members
 
+## Importing Incomes
+
+You can bulk import incomes from a CSV file:
+- Import historical data
+- Migrate from other tools
+- Restore from backups
+
+The CSV must have specific headers and format. See [Imports](/docs/features/imports) for details.
+
 ## Income vs Transfer
 
 It's important to understand the difference:
@@ -147,3 +156,5 @@ If multiple family members earn income, always associate incomes with the correc
 - [Recurring Incomes](/docs/concepts/recurring-transactions) - For regular income like salaries
 - [Tags](/docs/concepts/tags) - For categorizing incomes
 - [People](/docs/concepts/people) - For tracking who received income
+- [Imports](/docs/features/imports) - Bulk import incomes from CSV
+- [Exports](/docs/features/exports) - Export incomes to CSV

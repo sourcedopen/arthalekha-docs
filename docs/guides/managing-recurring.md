@@ -295,6 +295,22 @@ Remove when:
 If something is temporarily stopped:
 - You can delete and recreate later
 - Or set remaining recurrences to 0 temporarily
+- Or remove the account (set to "No account") to skip transactions while keeping the schedule
+
+### Using No Account (Skip Transaction)
+
+For recurring incomes and expenses, you can leave the account empty:
+
+**When to use "No account":**
+- You haven't decided which account to use yet
+- You want to track a reminder without creating transactions
+- You're planning future expenses but not ready to commit to an account
+
+**What happens:**
+- No income/expense entry is created
+- The next transaction date still advances
+- Remaining recurrences still decrement
+- The recurring item stays active for projections planning
 
 ## Tips for Effective Recurring Management
 

@@ -6,6 +6,10 @@ sidebar_position: 4
 
 Arthalekha allows you to **export** your financial data to CSV format for external analysis, backup, or sharing. Exports work with your current filters, letting you download exactly the data you need.
 
+:::tip Import Data Too
+You can also **import** data from CSV files. See [Imports](/docs/features/imports) for details.
+:::
+
 ## Why Export Data?
 
 ### Detailed Analysis
@@ -229,6 +233,7 @@ CSV format:
 
 ## Related Features
 
+- [Imports](/docs/features/imports) - Import data from CSV files
 - [Filtering](/docs/features/filtering-and-search) - Filter before exporting
 - [Tags](/docs/concepts/tags) - Export by category
 - [People](/docs/concepts/people) - Export by person

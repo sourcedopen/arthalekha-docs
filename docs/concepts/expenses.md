@@ -108,6 +108,15 @@ Export your filtered expense list to CSV for:
 - Budget reviews
 - Expense reports
 
+## Importing Expenses
+
+You can bulk import expenses from a CSV file:
+- Import historical data
+- Migrate from other tools
+- Restore from backups
+
+The CSV must have specific headers and format. See [Imports](/docs/features/imports) for details.
+
 ## Expense vs Transfer
 
 Understanding the difference is important:
@@ -185,3 +194,5 @@ Use Arthalekha's features to understand your spending:
 - [Tags](/docs/concepts/tags) - For categorizing expenses
 - [People](/docs/concepts/people) - For tracking who made expenses
 - [Dashboard](/docs/features/dashboard) - For visualizing expense patterns
+- [Imports](/docs/features/imports) - Bulk import expenses from CSV
+- [Exports](/docs/features/exports) - Export expenses to CSV
